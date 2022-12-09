@@ -3,7 +3,7 @@
   padding: 0;
 }
 header {
-  font-family: "Zen Dots";
+  font-family: 'Zen Dots';
 }
 .header {
   display: flex;
@@ -58,7 +58,7 @@ a:active {
   background-color: #6c63ff;
 }
 h2 {
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
   font-style: normal;
   font-weight: 400;
   font-size: 86px;
@@ -68,7 +68,7 @@ h2 {
 p {
   width: 400px;
   height: 102px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -144,15 +144,15 @@ p {
   margin-top: 50px;
 }
 .free ol {
-   list-style-type: none;
+  list-style-type: none;
   display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 46px 88px;
-gap: 20px;
- }
-.free li{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 46px 88px;
+  gap: 20px;
+}
+.free li {
   column-gap: 25px;
 }
 .gs1 .gs3 {
@@ -189,15 +189,15 @@ gap: 20px;
   text-align: center;
   list-style-type: none;
 }
-.premium button{
+.premium button {
   width: 150px;
   height: 33px;
   border: 2px solid#FFFFFF;
   border-radius: 15px;
   color: #6c63ff;
 }
-.gs2{
-  background-color: #FFFFFF;
+.gs2 {
+  background-color: #ffffff;
   border-color: #6c63ff;
 }
 .enterprise {
@@ -212,4 +212,3 @@ gap: 20px;
   text-align: center;
   list-style-type: none;
 }
-
