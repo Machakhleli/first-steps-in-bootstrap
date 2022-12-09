@@ -110,6 +110,7 @@ p {
 .image {
   width: 300px;
 }
+/* gradiant */
 .learn-more {
   font-size: 25px;
   width: 120px;
@@ -127,5 +128,88 @@ p {
 .choice {
   display: flex;
   justify-content: center;
-  
 }
+#section6 > .col-4 {
+  width: 400px;
+  height: 450px;
+}
+#section7 .row {
+  display: flex;
+  justify-content: space-around;
+}
+.free {
+  width: 400px;
+  height: 450px;
+  background-color: rgba(236, 235, 255, 0.3);
+  margin-top: 50px;
+}
+.free ol {
+   list-style-type: none;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 46px 88px;
+gap: 20px;
+ }
+.free li{
+  column-gap: 25px;
+}
+.gs1 .gs3 {
+  background-color: rgba(236, 235, 255, 0.3);
+  border-color: #6c63ff;
+}
+.free a {
+  color: #6c63ff;
+}
+.free button,
+.enterprise button {
+  width: 150px;
+  height: 33px;
+  border: 2px solid#6c63ff;
+  border-radius: 15px;
+  color: #6c63ff;
+}
+
+.for-free {
+  color: black;
+  font-size: 50px;
+}
+.premium {
+  width: 400px;
+  height: 450px;
+  margin-top: 10px;
+  background-color: #6c63ff;
+}
+.list2 li {
+  color: #ffffff;
+}
+.premium ol {
+  justify-content: space-evenly;
+  text-align: center;
+  list-style-type: none;
+}
+.premium button{
+  width: 150px;
+  height: 33px;
+  border: 2px solid#FFFFFF;
+  border-radius: 15px;
+  color: #6c63ff;
+}
+.gs2{
+  background-color: #FFFFFF;
+  border-color: #6c63ff;
+}
+.enterprise {
+  margin-top: 50px;
+  background-color: #ecebff;
+  width: 400px;
+  height: 450px;
+}
+.enterprise ol {
+  justify-content: space-evenly;
+  margin-top: 30px;
+  text-align: center;
+  list-style-type: none;
+}
+
