@@ -60,7 +60,7 @@ a:active {
 h2 {
   font-family: "Playfair Display";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 86px;
   line-height: 88px;
   letter-spacing: -1px;
@@ -78,15 +78,54 @@ p {
 .btn {
   background-color: #6c63ff;
 }
+.mt-10 {
+  margin-top: 100px;
+}
+.mt-5 {
+  margin-top: 20px;
+}
 .col-5 button {
   color: #ffffff;
 }
 .ml-5 {
-  margin-left: 40px;
+  margin-left: 50px;
 }
-.mr-5 {
-  margin-right: 200px;
-}
-.col-5 img {
+.col-6 img {
   border-bottom: 3px solid#CFCFDE;
+}
+#section2 {
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin-left: 400px;
+}
+.logos img {
+  margin: 50px;
+  width: 130px;
+}
+.image {
+  width: 300px;
+}
+.learn-more {
+  font-size: 25px;
+  width: 120px;
+  height: 30px;
+  color: #2f2e41;
+  background: rgba(203, 201, 241, 0.61);
+  background: linear-gradient(
+    180deg,
+    rgba(209, 207, 247, 0) 0%,
+    rgba(197, 194, 255, 0) 50%,
+    rgb(180, 210, 255) 50%,
+    rgb(220, 197, 252) 100%
+  );
+}
+.choice {
+  display: flex;
+  justify-content: center;
+  
 }
